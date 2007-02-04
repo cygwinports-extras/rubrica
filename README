@@ -1,0 +1,199 @@
+rubrica
+------------------------------------------
+Rubrica is an addressbook manager for the GNOME Environment. It allows 
+you to add personal data (name, surname, address, etc.), web links, irc 
+and email addresses, telephone numbers, job information (company where 
+contact works, company infos, contact's assigment, etc.) and notes.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  GConf2-2.16.0-1
+  atk-1.12.4-1
+  gdk-pixbuf2-2.10.7-1
+  glib2-2.12.7-1
+  gtk2-x11-2.10.7-1
+  libgnome2-2.16.0-1
+  libgnomeui2-2.16.1-1
+  libintl8-0.15-1
+  libxml2-2.6.26-1
+  libxslt-1.1.17-1
+  pango-1.14.9-1
+  python
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.9-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://rubrica.berlios.de/
+
+Canonical download:
+  http://prdownloads.berlios.de/rubrica/
+
+-------------------------------------------
+
+Build instructions:
+  unpack rubrica-1.0.16-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./rubrica-1.0.16-X.cygport all
+
+This will create:
+  /usr/src/rubrica-1.0.16-X-src.tar.bz2
+  /usr/src/rubrica-1.0.16-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/rubrica.schemas
+  /etc/postinstall/rubrica.sh
+  /etc/preremove/rubrica.sh
+  /usr/bin/rubrica.exe
+  /usr/share/applications/rubrica.desktop
+  /usr/share/doc/Cygwin/rubrica-1.0.16.README
+  /usr/share/doc/rubrica-1.0.16/ABOUT-NLS
+  /usr/share/doc/rubrica-1.0.16/AUTHORS
+  /usr/share/doc/rubrica-1.0.16/COPYING
+  /usr/share/doc/rubrica-1.0.16/CREDITS
+  /usr/share/doc/rubrica-1.0.16/ChangeLog
+  /usr/share/doc/rubrica-1.0.16/INSTALL
+  /usr/share/doc/rubrica-1.0.16/README
+  /usr/share/doc/rubrica-1.0.16/examples.rub
+  /usr/share/locale/bg/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/de/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/es/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/eu/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/fr/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/ga/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/it/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/ja/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/ru/LC_MESSAGES/rubrica.mo
+  /usr/share/locale/sk/LC_MESSAGES/rubrica.mo
+  /usr/share/pixmaps/rubrica/about.png
+  /usr/share/pixmaps/rubrica/accounts.png
+  /usr/share/pixmaps/rubrica/add-menu.png
+  /usr/share/pixmaps/rubrica/add.png
+  /usr/share/pixmaps/rubrica/altrotel.png
+  /usr/share/pixmaps/rubrica/arrow-left.png
+  /usr/share/pixmaps/rubrica/arrow-right.png
+  /usr/share/pixmaps/rubrica/bug.png
+  /usr/share/pixmaps/rubrica/bussiness.png
+  /usr/share/pixmaps/rubrica/calabria.png
+  /usr/share/pixmaps/rubrica/casa.png
+  /usr/share/pixmaps/rubrica/cellulare.png
+  /usr/share/pixmaps/rubrica/company.png
+  /usr/share/pixmaps/rubrica/company2.png
+  /usr/share/pixmaps/rubrica/contacts.png
+  /usr/share/pixmaps/rubrica/crypto-info.png
+  /usr/share/pixmaps/rubrica/crypto.png
+  /usr/share/pixmaps/rubrica/customer.png
+  /usr/share/pixmaps/rubrica/dedicato.png
+  /usr/share/pixmaps/rubrica/del.png
+  /usr/share/pixmaps/rubrica/dictionary.png
+  /usr/share/pixmaps/rubrica/email.png
+  /usr/share/pixmaps/rubrica/emailme.png
+  /usr/share/pixmaps/rubrica/export-menu.png
+  /usr/share/pixmaps/rubrica/export.png
+  /usr/share/pixmaps/rubrica/favorites.png
+  /usr/share/pixmaps/rubrica/fax.png
+  /usr/share/pixmaps/rubrica/few.png
+  /usr/share/pixmaps/rubrica/file-info.png
+  /usr/share/pixmaps/rubrica/file.png
+  /usr/share/pixmaps/rubrica/filesett.png
+  /usr/share/pixmaps/rubrica/folder.png
+  /usr/share/pixmaps/rubrica/football.png
+  /usr/share/pixmaps/rubrica/freebsd.png
+  /usr/share/pixmaps/rubrica/friends.png
+  /usr/share/pixmaps/rubrica/general-info.png
+  /usr/share/pixmaps/rubrica/general.png
+  /usr/share/pixmaps/rubrica/genius.png
+  /usr/share/pixmaps/rubrica/heart.png
+  /usr/share/pixmaps/rubrica/help.png
+  /usr/share/pixmaps/rubrica/hi.png
+  /usr/share/pixmaps/rubrica/hobby.png
+  /usr/share/pixmaps/rubrica/holiday-cards.png
+  /usr/share/pixmaps/rubrica/holiday.png
+  /usr/share/pixmaps/rubrica/home.png
+  /usr/share/pixmaps/rubrica/hot-contacts.png
+  /usr/share/pixmaps/rubrica/image.png
+  /usr/share/pixmaps/rubrica/import-menu.png
+  /usr/share/pixmaps/rubrica/import.png
+  /usr/share/pixmaps/rubrica/info.png
+  /usr/share/pixmaps/rubrica/internet.png
+  /usr/share/pixmaps/rubrica/keys.png
+  /usr/share/pixmaps/rubrica/ledgreen.png
+  /usr/share/pixmaps/rubrica/ledred.png
+  /usr/share/pixmaps/rubrica/load.png
+  /usr/share/pixmaps/rubrica/misc.png
+  /usr/share/pixmaps/rubrica/mod-menu.png
+  /usr/share/pixmaps/rubrica/mod.png
+  /usr/share/pixmaps/rubrica/money.png
+  /usr/share/pixmaps/rubrica/multimedia.png
+  /usr/share/pixmaps/rubrica/none.png
+  /usr/share/pixmaps/rubrica/normal.png
+  /usr/share/pixmaps/rubrica/notes.png
+  /usr/share/pixmaps/rubrica/other.png
+  /usr/share/pixmaps/rubrica/penguin.png
+  /usr/share/pixmaps/rubrica/personal.png
+  /usr/share/pixmaps/rubrica/photo.png
+  /usr/share/pixmaps/rubrica/pj.png
+  /usr/share/pixmaps/rubrica/post-it.png
+  /usr/share/pixmaps/rubrica/puzzle.png
+  /usr/share/pixmaps/rubrica/question.png
+  /usr/share/pixmaps/rubrica/remove-menu.png
+  /usr/share/pixmaps/rubrica/remove.png
+  /usr/share/pixmaps/rubrica/role.png
+  /usr/share/pixmaps/rubrica/rubrica.jpg
+  /usr/share/pixmaps/rubrica/rubrica.png
+  /usr/share/pixmaps/rubrica/save.png
+  /usr/share/pixmaps/rubrica/sbug.png
+  /usr/share/pixmaps/rubrica/scalabria.png
+  /usr/share/pixmaps/rubrica/schede.png
+  /usr/share/pixmaps/rubrica/search.png
+  /usr/share/pixmaps/rubrica/strategies.png
+  /usr/share/pixmaps/rubrica/street.png
+  /usr/share/pixmaps/rubrica/telefoni.png
+  /usr/share/pixmaps/rubrica/telefono.png
+  /usr/share/pixmaps/rubrica/testa.png
+  /usr/share/pixmaps/rubrica/time.png
+  /usr/share/pixmaps/rubrica/translation-info.png
+  /usr/share/pixmaps/rubrica/translation.png
+  /usr/share/pixmaps/rubrica/university.png
+  /usr/share/pixmaps/rubrica/very-hi.png
+  /usr/share/pixmaps/rubrica/view-column.png
+  /usr/share/pixmaps/rubrica/view-info.png
+  /usr/share/pixmaps/rubrica/view.png
+  /usr/share/pixmaps/rubrica/word.png
+  /usr/share/pixmaps/rubrica/work.png
+  /usr/share/rubrica/nautilus-script/rubrica2html.py
+  /usr/share/rubrica/script/rub2html.py
+  /usr/share/rubrica/script/rub2rub.py
+  /usr/share/rubrica/script/rub2txt.py
+  /usr/share/rubrica/script/rub2vcard.py
+  /usr/share/rubrica/stylesheet/rub2html.xsl
+  /usr/share/rubrica/stylesheet/rub2rub.xsl
+  /usr/share/rubrica/stylesheet/rub2txt.xsl
+  /usr/share/rubrica/stylesheet/rub2vcard.xsl
+
+------------------
+
+Port Notes:
+
+----- version 1.0.16-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

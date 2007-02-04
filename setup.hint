@@ -1,0 +1,8 @@
+category: Gnome
+requires: cygwin GConf2 atk gdk-pixbuf2 glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8 libxml2 libxslt pango
+sdesc: "GNOME addressbook"
+ldesc: "Rubrica is an addressbook manager for the GNOME Environment. It 
+allows you to add personal data (name, surname, address, etc.), web 
+links, irc and email addresses, telephone numbers, job information 
+(company where contact works, company infos, contact's assigment, etc.) 
+and notes."
