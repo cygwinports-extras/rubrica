@@ -26,7 +26,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.2.11-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -42,15 +42,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack rubrica-1.0.16-X-src.tar.bz2
+  unpack rubrica-1.0.18-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./rubrica-1.0.16-X.cygport all
+  cygport ./rubrica-1.0.18-X.cygport all
 
 This will create:
-  /usr/src/rubrica-1.0.16-X-src.tar.bz2
-  /usr/src/rubrica-1.0.16-X.tar.bz2
+  /usr/src/rubrica-1.0.18-X-src.tar.bz2
+  /usr/src/rubrica-1.0.18-X.tar.bz2
 
 -------------------------------------------
 
@@ -61,15 +61,15 @@ Files included in the binary package:
   /etc/preremove/rubrica.sh
   /usr/bin/rubrica.exe
   /usr/share/applications/rubrica.desktop
-  /usr/share/doc/Cygwin/rubrica-1.0.16.README
-  /usr/share/doc/rubrica-1.0.16/ABOUT-NLS
-  /usr/share/doc/rubrica-1.0.16/AUTHORS
-  /usr/share/doc/rubrica-1.0.16/COPYING
-  /usr/share/doc/rubrica-1.0.16/CREDITS
-  /usr/share/doc/rubrica-1.0.16/ChangeLog
-  /usr/share/doc/rubrica-1.0.16/INSTALL
-  /usr/share/doc/rubrica-1.0.16/README
-  /usr/share/doc/rubrica-1.0.16/examples.rub
+  /usr/share/doc/Cygwin/rubrica-1.0.18.README
+  /usr/share/doc/rubrica-1.0.18/ABOUT-NLS
+  /usr/share/doc/rubrica-1.0.18/AUTHORS
+  /usr/share/doc/rubrica-1.0.18/COPYING
+  /usr/share/doc/rubrica-1.0.18/CREDITS
+  /usr/share/doc/rubrica-1.0.18/ChangeLog
+  /usr/share/doc/rubrica-1.0.18/INSTALL
+  /usr/share/doc/rubrica-1.0.18/README
+  /usr/share/doc/rubrica-1.0.18/examples.rub
   /usr/share/locale/bg/LC_MESSAGES/rubrica.mo
   /usr/share/locale/de/LC_MESSAGES/rubrica.mo
   /usr/share/locale/es/LC_MESSAGES/rubrica.mo
@@ -190,6 +190,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.18-1 -----
+Version bump.
 
 ----- version 1.0.16-1 -----
 Initial release for Cygwin.
